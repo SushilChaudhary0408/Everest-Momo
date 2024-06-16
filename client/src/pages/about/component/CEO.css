@@ -1,0 +1,54 @@
+
+/* SliderComponent.css */
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .testimonial-slide {
+    /* padding: 20px; */
+  }
+  
+  .testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+  }
+  
+  .arrows-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .arrow-button {
+    height: 24px;
+    width: 24px;
+    /* md-height: 48px; */
+    /* md-width: 48px; */
+    border-radius: 50%;
+    border: 2px solid #A6AEBB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* text-white: white; */
+    margin: 0 10px;
+  }
+  
+  .arrow-button:hover {
+    background-color: #A6AEBB;
+  }
+  
