@@ -14,7 +14,7 @@ import Vegmomos from '../Components/Vegmomos';
 function OurManu() {
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
     <Navbar/>
       <div className='container mx-auto px-6 md:20 lg:px-40 gap-14 flex flex-col justify-center  '>
 
@@ -95,7 +95,7 @@ function OurManu() {
       </div>
       <Footer footerColor="white" />
 
-    </>
+    </div>
   )
 }
 

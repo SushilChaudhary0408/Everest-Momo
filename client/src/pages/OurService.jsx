@@ -35,7 +35,7 @@ function OurService() {
   };
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <Navbar />
       <div className=' mx-auto px-6 lg:px-20 xl:px-40  flex flex-col justify-center'>
         <div className='flex flex-row justify-between  gap-1 lg:gap-10 xl:gap-48'>
@@ -162,7 +162,7 @@ function OurService() {
 
 
       <Footer />
-    </>
+    </div>
   )
 }
 

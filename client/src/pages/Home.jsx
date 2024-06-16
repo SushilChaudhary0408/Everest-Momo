@@ -92,7 +92,7 @@ function Home() {
 
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <div className="relative z-20">
         <Navbar /> {/* Navbar with higher z-index */}
       </div>
@@ -272,7 +272,7 @@ function Home() {
       <LeafletMap/>
     </div>
     <Footer footerColor="white" />
-    </>
+    </div>
   );
 }
 

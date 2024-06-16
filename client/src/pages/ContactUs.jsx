@@ -9,7 +9,7 @@ import Footer from '../Components/Footer';
 
 function ContactUs() {
     return (
-        <>
+        <div className='overflow-x-hidden'>
             <Navbar />
             <div className='container mx-auto px-6 lg:px-32 gap-14 flex flex-col justify-center '>
 
@@ -98,7 +98,7 @@ function ContactUs() {
                     <Footer footerColor="bg-slate-50" />
                 </span>
             </div>
-        </>
+        </div>
     );
 }
 

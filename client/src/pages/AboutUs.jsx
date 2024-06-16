@@ -23,29 +23,8 @@ import CustomArrows from '../Components/Card';
 import CeoCard from './about/component/CeoCard';
 
 
-// const coreMembers = [
-//     {
-//         text: "Momo is not just about sustenance, it's about bringing people together and creating memories. At our restaurant, we strive to create a warm and inviting atmosphere where our guests can enjoy delicious momo, great company, and unforgettable experiences",
-//         name: "Rajan thakuri",
-//         image: About10,
-//     },
-//     {
-//         text: "Momo is not just about sustenance, it's about bringing people together and creating memories. At our restaurant, we strive to create a warm and inviting atmosphere where our guests can enjoy delicious momo, great company, and unforgettable experiences",
-//         name: "nabin japrel",
-//         image: About11,
-//     }
-// ];
 
 function AboutUs() {
-
-    // const [currentCoreMember, setCurrentMember] = useState(0);
-    // const handlePreviousClick = () => {
-    //     setCurrentMember((prev) => (prev === 0 ? coreMembers.length - 1 : prev - 1));
-    // }
-
-    // const handleNextClic = () => {
-    //     setCurrentMember((prev) => (prev === coreMembers.length - 1 ? 0 : prev + 1));
-    // }
 
 
     const aboutStyle02 = {
@@ -134,7 +113,7 @@ function AboutUs() {
 
 
     return (
-        <>
+        <div className='overflow-x-hidden'>
             <Navbar />
             <div className=' mx-auto px-6 lg:px-20 xl:px-40  flex flex-col justify-center'>
                 <div className='flex flex-row justify-between items-center gap-10 lg:gap-24'>
@@ -280,7 +259,7 @@ function AboutUs() {
 
             <Footer footerColor="white" />
 
-        </>
+        </div>
     )
 }
 

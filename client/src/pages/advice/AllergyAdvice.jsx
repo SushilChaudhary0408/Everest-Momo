@@ -50,7 +50,7 @@ function AllergyAdvice() {
 
 
     return (
-        <div className=' overflow-hidden'>
+        <div className='overflow-x-hidden'>
             <Navbar />
             <div className=' mx-auto px-6 lg:px-20  xl:px-40  '>
                 <div className='flex flex-row justify-between  gap-1 lg:gap-10'>
